@@ -3,6 +3,7 @@
     "name": "techyscholar-app",
     "slug": "techyscholar-app",
     "version": "1.0.0",
+    "scheme": "techyscholar-app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "techyscholar.app",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "855e3f23-26fa-4f3e-9794-1a9505a16c76"
+      }
     }
   }
 }
